@@ -34,11 +34,9 @@ public class task6 {
         int num = in.nextInt();
 
         if (num == 2) {
-            Scanner in2 = new Scanner(System.in);
             System.out.print("Выберите единицу измерения: 1 - метр, 2 - миля, 3 - ярд, 4 - фут: ");
             int num2 = in.nextInt();
             if (num2 == metrpar) {
-                Scanner in3 = new Scanner(System.in);
                 System.out.print("Введите число: ");
                 double num3 = in.nextDouble();
                 nummetr = num3 * metrvmetr;
@@ -52,7 +50,6 @@ public class task6 {
 
             } else {
                 if (num2 == milpar) {
-                    Scanner in3 = new Scanner(System.in);
                     System.out.print("Введите число: ");
                     double num3 = in.nextDouble();
                     nummetr = num3 * milivmetr;
@@ -66,7 +63,6 @@ public class task6 {
 
                 } else {
                     if (num2 == yarpar) {
-                        Scanner in3 = new Scanner(System.in);
                         System.out.print("Введите число: ");
                         double num3 = in.nextDouble();
                         nummetr = num3 * yardvmetr;
@@ -80,7 +76,6 @@ public class task6 {
 
                     } else {
                         if (num2 == futpar) {
-                            Scanner in3 = new Scanner(System.in);
                             System.out.print("Введите число: ");
                             double num3 = in.nextDouble();
                             nummetr = num3 * futvmetr;
