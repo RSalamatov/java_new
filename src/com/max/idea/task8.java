@@ -14,8 +14,6 @@ public class task8 {
             if (i % 2 != 0) {
                 sum = sum + i;
             }
-
-
         }
         System.out.println(sum);
     }
